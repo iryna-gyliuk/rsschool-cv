@@ -33,4 +33,22 @@ I am a very responsible, result-oriented engineer with good level of communicati
 * Figma, Adobe Photoshop, Sketch
 * Jira
 * Clear understanding of testing processes
+
+## Code Example
+  ```
+  <div class="item">
+    <input id="item-one" type="radio" checked name="items">
+      <label for="item-one" class="fa-plus">
+          <span>
+              <span>You can't just copy and paste css </span>
+          </span>
+          <span class="mem-img"><img src="img/pic_1.jpg" alt=""></span>
+      </label>
+   </div>
+```
+## Experience
+* HTML/CSS developer in Webdevs company
+* Personal seo-manager Ukrseo  marketing agency
+* Private financial consultant Commercial bank the PrivatBank 
+
  
