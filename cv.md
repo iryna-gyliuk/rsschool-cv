@@ -51,4 +51,14 @@ I am a very responsible, result-oriented engineer with good level of communicati
 * Personal seo-manager Ukrseo  marketing agency
 * Private financial consultant Commercial bank the PrivatBank 
 
+## Education
+* HTML and CSS Tutorials on the [w3schools](https://www.w3schools.com/)
+* IT School GoIT (Kyiv) 2022 QA Engineer
+* Kharkov Trade and Economic Institute
+
+## Languages:
+* English - Pre-Intermediate
+* Ukrainian - Native
+* Russian - Native
+
  
