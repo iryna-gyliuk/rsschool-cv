@@ -1,0 +1,45 @@
+body {
+    font-family: 'Helvetica', cursive;
+    height: 100%;
+    padding: 0;
+    margin: 0;
+    font-size: 1em;
+    font-weight: 400;
+    line-height: 1.5;
+}
+
+h2 {
+    font-size: 1.5em;
+}
+
+.wrapper {
+    background-color: #ffffff;
+}
+
+.row {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 100%;
+    height: 100vh;
+}
+
+.column {
+    display: flex;
+    flex-direction: column;
+    flex-basis: 100%;
+    flex: 1;
+    height: 100%;
+}
+
+.column-left {
+    background-color: #8080800f;
+    height: 100%;
+    padding: 2em;
+}
+
+.column-right {
+    background-color: #fff;
+    height: 100%;
+    padding: 2em;
+}
