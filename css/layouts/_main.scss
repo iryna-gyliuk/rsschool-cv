@@ -1,0 +1,36 @@
+.profile-avatar {
+    display: flex;
+    height: 200px;
+    justify-content: center;
+    width: 200px;
+    margin-top: 20px;
+    img{
+        border-radius: 50%;
+        width: 100%;
+        -o-object-fit: cover;
+        object-fit: cover;
+        border: 15px solid $color-background;
+    }
+}
+.column-list{
+    list-style-type: none;
+    li{
+        position: relative;
+        margin: 0;
+        margin-bottom: 10px;
+        padding: 0;
+        padding-left: 30px;
+        &:before{
+            content: "";
+            position: absolute; 
+            left: 0px; 
+            top: 0px; 
+            width: 10px; 
+            height: 10px; 
+            background-color: #ffffff;
+            border-radius: 50%;
+            border: 5px solid  $color-background; 
+            
+        }
+    }
+}
