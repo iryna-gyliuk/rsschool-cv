@@ -4,38 +4,233 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Guliuk Iryna Frontend developer</title>
-    <link rel="stylesheet" type="text/css" href="css/reset.css">
-    <link rel="stylesheet" type="text/css" href="css/normalize.css">
+    <link rel="icon" href="assets/images/favicon.ico">
+    <title>CV - Gyliuk Iryna Frontend developer</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,400;0,500;0,700;1,300&display=swap"
+        rel="stylesheet">
+    <script src="https://kit.fontawesome.com/58d3fed350.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="css/style.css">
 </head>
 
 <body>
-    <div class="wrapper">
-        <div class="row">
-            <div class="column">
-                <div class="column-left">
-                    <h2>My Contact Info:</h2>
-                    <ul>
-                        <li>Phone: +34644095968</li>
-                        <li>E-mail: ira.gyliuk@gmail.com</li>
-                        <li>GitHub: iryna-gyliuk</li>
-                        <li>LinkedIn: https://www.linkedin.com/in/iryna-gyliuk/</li>
-                        <li>Telegram: @iryna_gyliuk</li>
+    <header class="header">
+            <nav class="nav">
+                <input id="nav-toggle" type="checkbox">
+                <label class="nav-button-container" for="nav-toggle">
+                    <span class="nav-button"></span>
+                </label>
+                <ul class="nav-list">
+                    <li class="nav-item"><a href="#contacts" class="nav-link">Contacts</a></li>
+                    <li class="nav-item"><a href="#summary" class="nav-link">Summary</a></li>
+                    <li class="nav-item"><a href="#skills" class="nav-link">Skills</a></li>
+                    <li class="nav-item"><a href="#project" class="nav-link">Project</a></li>
+                    <li class="nav-item"><a href="#education" class="nav-link">Education</a></li>
+                    <li class="nav-item"><a href="#languages" class="nav-link">Languages</a></li>
+                    <li class="nav-item"><a href="#experience" class="nav-link">Experience</a></li>
+                    <li class="nav-item"><a href="#code" class="nav-link">Code</a></li>
+                </ul>
+            </nav>
+        
+    </header>
+    <main class="main">
+        <div class="container main-container">
+            <section class="profile-heder">
+                <div class="profile-avatar"><img src="assets/images/avatar.jpeg" alt="profile-avatar"></div>
+                <section class="profile-title">
+                    <h1>Iryna Gyliuk </h1>
+                    <h2 class="section-title"><span>FRONT-END DEVELOPER</span></h2>
+                </section>
+            </section>
+            <div class="column column-left">
+                <section class="contacts" id="contacts">
+                    <h2 class="section-title"><span> Contact Info:</span></h2>
+                    <ul class="contact-list">
+                        <li><span class="social-icon"><i class="fa-solid fa-envelope"></i></span>Email: <a href="mailto:ira.gyliuk@gmail.com"  target="_blank"> ira.gyliuk@gmail.com</a></li>
+                        <li><span class="social-icon"><i class="fa-brands fa-github"></i></span>Github: <a href="https://github.com/iryna-gyliuk"  target="_blank"> iryna-gyliuk</a></li>
+                        <li><span class="social-icon"><i class="fa-brands fa-linkedin"></i></span>Linkedin: <a href="https://www.linkedin.com/in/iryna-gyliuk/"  target="_blank"> iryna-gyliuk</a> </li>
+                        <li><span class="social-icon"><i class="fa-brands fa-telegram"></i></span>Telegram: <a href="https://t.me/iryna_gyliuk" target="_blank"> @iryna_gyliuk</a></li>
                     </ul>
-                </div>
+                </section>
+                <section class="tech-skills" id="skills">
+                    <h2 class="section-title"><span>Tech skills</span></h2>
+                    <ul class="column-list">
+                        <li>Web-development: HTML5, CSS3, SASS, Bootstrap, WordPress, JavaScript </li>
+                        <li>Version control: GIT, Github, Jira</li>
+                        <li>Graphics: Figma, Photoshop, Sketch</li>
+                        <li>Testing : Postman, TestRail </li>
+                        <li>Development environment: VS Code, IntelliJ IDEA, Sublime</li>
+                    </ul>
+                </section>
+                <section class="soft-skills">
+                    <h2 class="section-title"><span>Soft Skills</span></h2>
+                    <ul class="column-list">
+                        <li>Teamwork</li>
+                        <li>Good communication</li>
+                        <li>Diligent</li>
+                        <li>Hardworking</li>
+                        <li>Approachable</li>
+                        <li>Result oriented</li>
+                    </ul>
+                </section>
+                <section class="education" id="education">
+                    <div class="section-item">
+                        <h2 class="section-title"><span>Education</span></h2>
+                        <h3>IT School GoIT (Kyiv)</h3>
+                        <div class="date">2022</div>
+                        <div>QA Engineer</div>
+                    </div>
+                    <div class="section-item">
+                        <h3>Kharkov Trade and Economic
+                            Institute</h3>
+                        <div class="date">2003-2007</div>
+                        <div>Enterprise economics and management</div>
+                    </div>
+                </section>
+                <section class="languages" id="languages">
+                    <h2 class="section-title"><span>Languages</span></h2>
+                    <ul class="column-list">
+                        <li>English - Pre-Intermediate</li>
+                        <li>Ukrainian - Native</li>
+                        <li>Russian - Native</li>
+                        <li>Spanish - Elementary</li>
+                    </ul>
+                </section>
+
             </div>
-            <div class="column">
-                <div class="column-right">
-                    <h2>Summary</h2>
-                    <p>I have around six years of production experience as an html/css developer in IT-company. My current career includes a massive experience in transformation of the web design layouts into alive web-pages including flexible and responsive markup, styles and integration of some pars of a JQuery libraries) as well as in construction of the web email templates.</p>
-                    <p>First started as a Junior html/css developer I have achieved a level of driving and implementing complete pages/sites without supervision. It gave me opportunity to complete a lot of interesting projects. I always was passionate about learning new technologies, developing new skills and keep going with my self-development.</p>
-                    <p>Participation in a several big conferences, helped me to learn about new approaches in web front-end development.</p>
-                    <p>Currently, I’ve a huge passion to extend my skill-set and achieve new milestones as a front-end developer. Small listing of my tool-set/expertise: Jira, IDEA, WebStorm, version control systems (GIT/SVN), Sublime, Windows CLI, WordPress, Bootstrap. I am a very responsible, result-oriented engineer with good level of communication skills, good team player and open for a new challenges.</p>
-                </div>
+            <div class="column column-right">
+                <section class="summary" id="summary">
+                    <h2 class="section-title"><span>Summary</span></h2>
+                    <p>I have around six years of production experience as an html/css developer in IT-company. My
+                        current
+                        career includes a massive experience in transformation of the web design layouts into alive
+                        web-pages including flexible and responsive markup, styles and integration of some pars of a
+                        JQuery
+                        libraries as well as in construction of the web email templates.</p>
+                    <p>First started as a Junior html/css developer I have achieved a level of driving and implementing
+                        complete pages/sites without supervision. It gave me opportunity to complete a lot of
+                        interesting
+                        projects. I always was passionate about learning new technologies, developing new skills and
+                        keep
+                        going with my self-development.</p>
+                    <p>Participation in a several big conferences, helped me to learn about new approaches in web
+                        front-end
+                        development.</p>
+                    <p>Currently, I’ve a huge passion to extend my skill-set and achieve new milestones as a front-end
+                        developer. I am a very responsible, result-oriented engineer with good level of communication
+                        skills, good team player and open for a new challenges.</p>
+                </section>
+
+
+                <section class="projects" id="project">
+                    <h2 class="section-title"><span>Projects</span></h2>
+                    <div class="section-item">
+                        <h3><a class="project-link"
+                                href="https://iryna-gyliuk.github.io/bullets_volunteer_team/index.html" target="_blank">
+                                Bullets
+                                volunteer team website</a></h3>
+                        <ul class="column-list">
+                            <li>Created a website for a volunteer organization based on my own design</li>
+                        </ul>
+                    </div>
+                    <div class="section-item">
+                        <h3><a class="project-link" href="https://iryna-gyliuk.github.io/cssBayan/cssBayan/index.html"
+                                target="_blank">
+                                Rsschool project CssBayan</a></h3>
+                        <ul class="column-list">
+                            <li>Created an accordion menu in accordance with the requirements of the task</li>
+                        </ul>
+                    </div>
+                    <div class="section-item">
+                        <h3><a class="project-link"
+                                href="https://rolling-scopes-school.github.io/iryna-gyliuk-JSFE2023Q1/shelter/index.html"
+                                target="_blank">
+                                Rsschool project Shelter</a></h3>
+                        <ul class="column-list">
+                            <li>Created a two-page website with responsive and PixelPerfect web design </li>
+                        </ul>
+                    </div>
+                    <div class="section-item">
+                        <h3>
+                            <a class="project-link"
+                                href="https://www.figma.com/proto/M1xjDfrYXRSFsWPToc0CFG/Content-(Copy)?node-id=29102-2&starting-point-node-id=29102%3A2&mode=design&t=ORAHZ9TNzoIkeg7f-1"
+                                target="_blank">GoIt
+                                design project</a>
+                        </h3>
+                        <ul class="column-list">
+                            <li>Create a website design for a web design course</li>
+                        </ul>
+                    </div>
+                    <div class="section-item">
+                        <h3><a class="project-link" href="https://github.com/iryna-gyliuk/goit_testing"
+                                target="_blank">Testing of GOIT
+                                educational site</a></h3>
+                        <ul class="column-list">
+                            <li>Creating Test Cases with TestRail and JIRA</li>
+                            <li>Testing, Creating Bug Reports for Test Cases</li>
+                        </ul>
+                    </div>
+
+                </section>
+                <section class="experience" id="experience" >
+                    <h2 class="section-title"><span>Work experience</span></h2>
+                    <div class="section-item">
+                        <h3>HTML/CSS developer</h3>
+                        <div class="date">2011 - 2018</div>
+                        <h4 class="company-name">Wdevs company</h4>
+                        <ul class="column-list">
+                            <li>HTML/CSS slicing from PSD, Sketch </li>
+                            <li>Email templates</li>
+                            <li>Responsive design </li>
+                            <li>Testing and debugging </li>
+                            <li>Using framework Bootstrap , Material</li>
+                            <li>WordPress </li>
+                            <li>Preprocessor Sass/SCSS</li>
+                        </ul>
+                    </div>
+                    <div class="section-item">
+                        <h3>Personal seo-manager</h3>
+                        <div class="date">2009 - 2010</div>
+                        <h4 class="company-name">Ukrseo marketing agency</h4>
+                        <ul class="column-list">
+                            <li>Сollection of necessary information about the project</li>
+                            <li>Selection of search queries</li>
+                            <li>Coordination with the customer of all calculations</li>
+                        </ul>
+                    </div>
+                    <div class="section-item">
+                        <h3>Private financial consultant</h3>
+                        <div class="date">2007 - 2009</div>
+                        <h4 class="company-name">Commercial bank the PrivatBank </h4>
+                    </div>
+                </section>
+                <section class="code" id="code">
+                    <h2 class="section-title"><span>Code example</span></h2>
+                    <pre class="code-example">
+<code>
+    let eurosCount = 100;
+    let dollarsPerEuro = 1.25;
+    let yuansPerDollar = 6.91;
+    let dollarsCount = eurosCount * dollarsPerEuro;
+    console.log(dollarsCount);
+    let yuansCount = dollarsCount * yuansPerDollar;
+    console.log(yuansCount);
+</code>
+                    </pre>
+                </section>
             </div>
         </div>
-    </div>
+    </main>
+    <footer class="footer">
+        <div class="container">
+            <ul class="footer-nav-list">
+                <li><a href="https://github.com/iryna-gyliuk" target="_blank"><i class="fa-brands fa-github"></i> iryna-gyliuk</a></li>
+                <li><span>&copy; 2023</span></li>
+                <li><a  class="rs-school-logo"  href="https://rs.school/js/" target="_blank"></a></li>
+            </ul>
+        </div>
+    </footer>
 </body>
 
 </html>
