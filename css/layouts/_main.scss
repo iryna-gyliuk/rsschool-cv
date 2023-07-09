@@ -1,0 +1,107 @@
+.profile-heder {
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    padding: 30px;
+    margin-bottom: 30px;
+    border-bottom: 5px solid $color-background;
+}
+
+.profile-title {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    text-align: center;
+    text-transform: uppercase;
+
+    h2 {
+        margin: 0;
+    }
+}
+
+.profile-avatar {
+    display: flex;
+    height: 200px;
+    justify-content: center;
+    width: 200px;
+
+    img {
+        border-radius: 50%;
+        width: 100%;
+        -o-object-fit: cover;
+        object-fit: cover;
+        border: 15px solid $color-background;
+    }
+}
+
+.column-list {
+    list-style-type: none;
+    padding-left: 0;
+    margin: 10px 0 20px;
+
+    li {
+        position: relative;
+        margin: 0;
+        margin-bottom: 10px;
+        padding: 0;
+        padding-left: 30px;
+
+        &:before {
+            content: "";
+            position: absolute;
+            left: 3px;
+            top: 3px;
+            width: 5px;
+            height: 5px;
+            background-color: #ffffff;
+            border-radius: 50%;
+            border: 5px solid $color-background;
+
+        }
+    }
+}
+
+.profile-title {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.section-item {
+    margin-bottom: 30px;
+}
+.company-name{
+    font-weight: 500;
+    margin: 5px 0 0;
+    letter-spacing: 1px;
+}
+.code-example{
+    overflow-x: auto;
+    margin: 0.9;
+    background-color: rgb(243, 241, 241);
+}
+.contact-list{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    li{
+        position: relative;
+        margin: 0;
+        margin-bottom: 10px;
+        padding: 0;
+        display: flex;
+        align-items: center;
+    }
+    i{
+        font-size: 25px;
+        color: $color-background;;
+    }
+    .social-icon{
+        margin-right: 10px;
+        width: 25px;
+    }
+}
