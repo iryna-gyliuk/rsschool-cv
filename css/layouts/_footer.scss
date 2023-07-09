@@ -12,7 +12,7 @@
 }
 .footer-nav-list {
     display: flex;
-    justify-content:center;
+    justify-content: space-between;
     align-items: center;
     list-style-type: none;
     margin: 0;
@@ -22,10 +22,10 @@
         font-size: 18px;
         font-weight: 400;
         line-height: 45px;
-        color: $color-text; 
+        color: $color-light; 
         a{
             text-decoration: none;
-            color: $color-text; 
+            color: $color-light; 
         }
     }
 

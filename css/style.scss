@@ -2,9 +2,10 @@
 
 //Base
 @import "base/fonts";
-@import "base/base";
 @import "base/constants";
-// @import "base/buttons";
+@import "base/base";
+
+
 // @import "base/logo";
 //@import "base/hamburger";
 
@@ -15,4 +16,7 @@
 @import "layouts/header";
 @import "layouts/columns";
 @import "layouts/footer";
+
+//Media
+@import "base/media";
 
